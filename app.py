@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app, origins="*", methods=["GET", "POST", "OPTIONS"], allow_headers=["Content-Type", "Authorization", "X-Push-Secret"])
 
 RAPIDAPI_KEY  = os.environ.get("RAPIDAPI_KEY", "")
-PUSH_SECRET   = os.environ.get("PUSH_SECRET", "hz-secret-2026")
+PUSH_SECRET   = os.environ.get("PUSH_SECRET", "hz-secret-2025")
 CACHE_FILE    = "/tmp/cache.json"
 LINKEDIN_FILE = "/tmp/linkedin_jobs.json"
 
