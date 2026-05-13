@@ -67,7 +67,12 @@ QUERIES = [
     "Brand Director Dubai",
     "Senior Marketing Manager UAE",
     "Head of Marketing Saudi Arabia",
-    "Marketing Director Qatar"
+    "Marketing Director Qatar",
+    "Head of Marketing Malaysia",
+    "Marketing Director Kuala Lumpur",
+    "Brand Manager Malaysia",
+    "Digital Marketing Manager Malaysia",
+    "CX Manager Malaysia"
 ]
 
 def fetch_rapidapi():
